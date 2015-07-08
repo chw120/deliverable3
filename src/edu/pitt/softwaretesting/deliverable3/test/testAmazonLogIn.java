@@ -87,8 +87,8 @@ public class testAmazonLogIn {
 
 	}
 	
-//	 @After
-//	  public void tearDown() throws Exception {
-//	    driver.quit();
-//	 }
+	 @After
+	  public void tearDown() throws Exception {
+	    driver.quit();
+	 }
 }
