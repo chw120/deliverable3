@@ -63,8 +63,9 @@ public class testAmazonManageAccount {
 	}
 
 	//	Scenario2: delete an item from the wish list
-	//	When I am logged in and delete one existing item (eg, pillow) in the wait list
-	//	Then this item should not exist in the wait list
+	//  Given there are some items in the wish list
+	//	When I am logged in and delete one existing item (eg, pillow) in the wish list
+	//	Then this item should not exist in the wish list
 
 	@Test
 	public void testWishListDelete(){
